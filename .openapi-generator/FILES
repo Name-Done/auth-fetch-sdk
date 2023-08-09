@@ -2,12 +2,14 @@
 .npmignore
 README.md
 package.json
-src/apis/AuthApi.ts
+src/apis/DefaultApi.ts
 src/apis/index.ts
 src/index.ts
 src/models/BadRequestResponseDto.ts
-src/models/LoginUserRequestDto.ts
-src/models/LoginUserResponseDto.ts
+src/models/LoginRequestDto.ts
+src/models/LoginResponseDto.ts
+src/models/RefreshTokenRequestDto.ts
+src/models/RefreshTokenResponseDto.ts
 src/models/UnauthorizedResponseDto.ts
 src/models/index.ts
 src/runtime.ts
