@@ -26,13 +26,13 @@ export interface LoginRequestDto {
      */
     email: string;
     /**
-     * The password of the user (minimum 8 characters)
+     * The password of the user
      * @type {string}
      * @memberof LoginRequestDto
      */
     password: string;
     /**
-     * The new password to set for the user (optional, minimum 8 characters)
+     * The new password to set for the user (optional)
      * @type {string}
      * @memberof LoginRequestDto
      */

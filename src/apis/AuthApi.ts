@@ -16,6 +16,7 @@
 import * as runtime from '../runtime';
 import type {
   BadRequestResponseDto,
+  EmailConfirmationRequiredResponseDto,
   LoginRequestDto,
   LoginResponseDto,
   RefreshTokenRequestDto,
@@ -26,6 +27,8 @@ import type {
 import {
     BadRequestResponseDtoFromJSON,
     BadRequestResponseDtoToJSON,
+    EmailConfirmationRequiredResponseDtoFromJSON,
+    EmailConfirmationRequiredResponseDtoToJSON,
     LoginRequestDtoFromJSON,
     LoginRequestDtoToJSON,
     LoginResponseDtoFromJSON,

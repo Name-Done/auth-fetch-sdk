@@ -7,6 +7,7 @@ src/apis/AuthApi.ts
 src/apis/index.ts
 src/index.ts
 src/models/BadRequestResponseDto.ts
+src/models/EmailConfirmationRequiredResponseDto.ts
 src/models/LoginRequestDto.ts
 src/models/LoginResponseDto.ts
 src/models/RefreshTokenRequestDto.ts

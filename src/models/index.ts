@@ -1,6 +1,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export * from './BadRequestResponseDto';
+export * from './EmailConfirmationRequiredResponseDto';
 export * from './LoginRequestDto';
 export * from './LoginResponseDto';
 export * from './RefreshTokenRequestDto';
