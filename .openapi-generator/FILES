@@ -11,6 +11,7 @@ src/models/LoginRequestDto.ts
 src/models/LoginResponseDto.ts
 src/models/RefreshTokenRequestDto.ts
 src/models/RefreshTokenResponseDto.ts
+src/models/RegisterRequestDto.ts
 src/models/UnauthorizedResponseDto.ts
 src/models/index.ts
 src/runtime.ts
