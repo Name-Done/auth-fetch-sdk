@@ -16,50 +16,42 @@ import { exists, mapValues } from '../runtime';
 /**
  * 
  * @export
- * @interface ConfirmRequestDto
+ * @interface ForgotPasswordRequestDto
  */
-export interface ConfirmRequestDto {
+export interface ForgotPasswordRequestDto {
     /**
      * The email of the user
      * @type {string}
-     * @memberof ConfirmRequestDto
+     * @memberof ForgotPasswordRequestDto
      */
     email: string;
-    /**
-     * The confirmation code sent to the user's email
-     * @type {string}
-     * @memberof ConfirmRequestDto
-     */
-    code: string;
 }
 
 /**
- * Check if a given object implements the ConfirmRequestDto interface.
+ * Check if a given object implements the ForgotPasswordRequestDto interface.
  */
-export function instanceOfConfirmRequestDto(value: object): boolean {
+export function instanceOfForgotPasswordRequestDto(value: object): boolean {
     let isInstance = true;
     isInstance = isInstance && "email" in value;
-    isInstance = isInstance && "code" in value;
 
     return isInstance;
 }
 
-export function ConfirmRequestDtoFromJSON(json: any): ConfirmRequestDto {
-    return ConfirmRequestDtoFromJSONTyped(json, false);
+export function ForgotPasswordRequestDtoFromJSON(json: any): ForgotPasswordRequestDto {
+    return ForgotPasswordRequestDtoFromJSONTyped(json, false);
 }
 
-export function ConfirmRequestDtoFromJSONTyped(json: any, ignoreDiscriminator: boolean): ConfirmRequestDto {
+export function ForgotPasswordRequestDtoFromJSONTyped(json: any, ignoreDiscriminator: boolean): ForgotPasswordRequestDto {
     if ((json === undefined) || (json === null)) {
         return json;
     }
     return {
         
         'email': json['email'],
-        'code': json['code'],
     };
 }
 
-export function ConfirmRequestDtoToJSON(value?: ConfirmRequestDto | null): any {
+export function ForgotPasswordRequestDtoToJSON(value?: ForgotPasswordRequestDto | null): any {
     if (value === undefined) {
         return undefined;
     }
@@ -69,7 +61,6 @@ export function ConfirmRequestDtoToJSON(value?: ConfirmRequestDto | null): any {
     return {
         
         'email': value.email,
-        'code': value.code,
     };
 }
 

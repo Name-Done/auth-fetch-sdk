@@ -8,7 +8,9 @@ src/apis/index.ts
 src/index.ts
 src/models/AcceptedResponseDto.ts
 src/models/BadRequestResponseDto.ts
+src/models/ConfirmForgotPasswordRequestDto.ts
 src/models/ConfirmRequestDto.ts
+src/models/ForgotPasswordRequestDto.ts
 src/models/LoginRequestDto.ts
 src/models/LoginResponseDto.ts
 src/models/RefreshTokenRequestDto.ts
